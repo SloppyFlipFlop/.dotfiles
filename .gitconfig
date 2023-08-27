@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	name = David Nevarez
+	email = david.nevarez03@hotmail.com
+# Please adapt and uncomment the following lines:
+#	name = Fernando David Nevarez
+#	email = davidnevarez@Fernandos-MacBook-Air.local
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
