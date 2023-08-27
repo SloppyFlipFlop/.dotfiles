@@ -1,3 +1,5 @@
+# automaticaly sets the keyword vim to mean nvim in the terminal
+echo 'alias vim=nvim' >> .zshrc
 
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
